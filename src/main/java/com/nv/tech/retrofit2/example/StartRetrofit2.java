@@ -20,16 +20,19 @@ public class StartRetrofit2 {
 
 		GitHubService service = retrofit.create(GitHubService.class);
 
-		Call<List<Repo>> repos = service.listRepos("lukechi1219");
+		Call<List<Repo>> repos = service
+			.listRepos("lukechi1219", "test"); // , "aa123"
 
 		Response<List<Repo>> response = repos.execute();
 
 		if (response.isSuccessful()) {
 			List<Repo> list = response.body();
-			System.out.println(list.size());
-			System.out.println(list.get(0).getName());
-			System.out.println("----");
-			System.out.println(list.get(0).toString());
+			if (list != null) {
+				System.out.println(list.size());
+				System.out.println(list.get(0).getName());
+				System.out.println("----");
+				System.out.println(list.get(0).toString());
+			}
 		}
 	}
 }
