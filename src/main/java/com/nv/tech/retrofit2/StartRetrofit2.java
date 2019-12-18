@@ -1,8 +1,10 @@
-package com.nv.tech.retrofit2.example;
+package com.nv.tech.retrofit2;
 
 import java.io.IOException;
 import java.util.List;
 
+import com.nv.tech.retrofit2.example.GitHubService;
+import com.nv.tech.retrofit2.example.SBOBETApi;
 import com.nv.tech.retrofit2.example.dto.Repo;
 import com.nv.tech.retrofit2.example.dto.SBOBETResponse;
 import retrofit2.Call;
