@@ -23,6 +23,11 @@ import org.junit.Test;
  * zrf -> introduce field
  * zrp -> introduce parameter
  * zri -> inline
+ *
+ * zdm
+ *
+ * ?test
+ * zb
  */
 public class DemoTest {
 
