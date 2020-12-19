@@ -6,26 +6,40 @@ import org.junit.Test;
 
 /**
  * @author luke
+ * <p>
+ * jtest
+ * Tennis.new
+ * zl.var
+ * zn
+ * o
+ * tennis.score()
+ * alt enter
+ * w xa
+ * ctrl shift enter
+ * .ae
+ * zra -> refactor + run (test)
+ *
+ * zrf -> introduce field
+ * zrp -> introduce parameter
+ * zri -> inline
  */
 public class DemoTest {
 
-	/**
-	jtest
-	Tennis.new
-	zl.var
-	zn
-	o
-	tennis.score()
-	alt enter
-	w xa
-	ctrl shift enter
-	.ae
-	ctrl shift r
-	 */
+	private final Tennis tennis = new Tennis();
+
 	@Test
 	public void testLoveAll() {
-		Tennis tennis = new Tennis();
-		assertEquals("love all", tennis.score());
+		scoreShouldBe("love all");
+	}
+
+	@Test
+	public void testFifteenLove() {
+		tennis.firstPlayerScore();
+		scoreShouldBe("fifteen love");
+	}
+
+	private void scoreShouldBe(String expected) {
+		assertEquals(expected, tennis.score());
 	}
 
 }
