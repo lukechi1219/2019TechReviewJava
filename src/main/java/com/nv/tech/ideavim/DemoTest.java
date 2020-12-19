@@ -13,10 +13,11 @@ import org.junit.Test;
  * zn
  * o
  * tennis.score()
- * alt enter
- * w xa
- * ctrl shift enter
  * .ae
+ * alt enter
+ * w
+ * zb
+ * ctrl + tab
  * zra -> refactor + run (test)
  *
  * zrf -> introduce field
