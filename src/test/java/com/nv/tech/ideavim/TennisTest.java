@@ -1,9 +1,5 @@
 package com.nv.tech.ideavim;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 /**
  * @author luke
  * <p>
@@ -37,27 +33,4 @@ import org.junit.Test;
  */
 public class TennisTest {
 
-	private final Tennis tennis = new Tennis();
-
-	@Test
-	public void loveAll() {
-		scoreShouldBe("love all");
-	}
-
-	@Test
-	public void fifteenLove() {
-		tennis.firstPlayerScore();
-		scoreShouldBe("fifteen love");
-	}
-
-	@Test
-	public void thirtyLovje() {
-		tennis.firstPlayerScore();
-		tennis.firstPlayerScore();
-		scoreShouldBe("thirty love");
-	}
-
-	private void scoreShouldBe(String expected) {
-		assertEquals(expected, tennis.score());
-	}
 }
