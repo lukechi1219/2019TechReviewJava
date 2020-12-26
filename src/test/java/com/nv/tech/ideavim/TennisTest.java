@@ -4,17 +4,8 @@ package com.nv.tech.ideavim;
  * @author luke
  * <p>
  * jtest
- * Tennis.new
- * zl.var
- * zn
- * o
- * tennis.score()
- * .ae
- * zn
- * w
- * alt enter
- * w
- * zb
+ * Tennis.new , zl.var , zh , alt+enter
+ * o , tennis.score() , .ae , w , alt enter , w , zb
  * ctrl + tab
  * zra -> refactor + run (test)
  * <p>
