@@ -5,21 +5,14 @@ package com.nv.tech.ideavim;
  * <p>
  * jtest
  * Tennis.new , zl.var , zh , alt+enter
- * o , tennis.score() , .ae , w , alt enter , w , zb
- * ctrl + tab
- * zra -> refactor + run (test)
- * <p>
- * zrf -> introduce field
- * alt + i
- * VM
+ * o , tennis.score() , .ae , zn , alt enter , w , zb
+ * zra ,
+ * zrf -> introduce field , alt + i
+ * V , M
  * zrp -> introduce parameter
- * <p>
  * zri -> inline
- * <p>
- * zdm
- * zuc
- * <p>
- * ?test
+ * zdm , zuc
+ * /all , ?test
  * zb
  */
 public class TennisTest {
