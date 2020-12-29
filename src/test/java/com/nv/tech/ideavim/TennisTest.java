@@ -8,7 +8,7 @@ package com.nv.tech.ideavim;
  * o , tennis.score() , .ae , zn , alt enter , w , zb
  * zra ,
  * zrf -> introduce field , alt + i
- * V , M
+ * V , M , ctrl+b, /love
  * zrp -> introduce parameter
  * zri -> inline
  * zdm , zuc
